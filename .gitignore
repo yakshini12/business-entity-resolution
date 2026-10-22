@@ -1,0 +1,25 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Challenge data and generated artifacts
+dataset/
+models/
+output/
+tmp_predict/
+temp_predict/
+predict_tmp/
+temp/
+*.tsv
+*.partial
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

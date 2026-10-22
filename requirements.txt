@@ -1,0 +1,6 @@
+# Reference environment: Python 3.12.
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+rapidfuzz==3.14.3     # MIT licence - string similarity
+lightgbm==4.6.0       # MIT licence - the matching model
