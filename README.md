@@ -88,6 +88,8 @@ The project is currently a command-line pipeline; it does not include a web app 
 
 ## Resume project page
 
+**Live page:** [Business Entity Resolution project overview](https://yakshini12.github.io/business-entity-resolution/)
+
 `docs/index.html` is a static overview of the project and measured validation results; it does not run predictions. The workflow in `.github/workflows/pages.yml` publishes that page through GitHub Pages after Pages is enabled with GitHub Actions as the repository's publishing source.
 
 ## License
