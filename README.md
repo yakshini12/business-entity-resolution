@@ -15,7 +15,7 @@ Link records for the same business across three sources, even when names and add
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/DATASET-KEPT%20PRIVATE-315b52?style=for-the-badge" alt="Dataset kept private">
+  <img src="https://img.shields.io/badge/DATASET-NOT%20IN%20GITHUB-315b52?style=for-the-badge" alt="Dataset files are not stored in GitHub">
   <img src="https://img.shields.io/badge/MODEL-LightGBM-315b52?style=for-the-badge" alt="LightGBM model">
   <img src="https://img.shields.io/badge/RESULT-TRAINING%20HOLDOUT-315b52?style=for-the-badge" alt="Training holdout result">
 </p>
@@ -78,7 +78,9 @@ The holdout used Iowa and Rajasthan records from the supplied training labels. R
 
 ## Run it locally
 
-The challenge dataset is **not included**. Arrange the supplied files like this, or pass the parent dataset folder with `--data-dir`:
+The challenge dataset is hosted on [Kaggle](https://www.kaggle.com/datasets/patilayakshini/ml-challenge), but the files are **not stored in this GitHub repository**. The dataset license is currently **unknown**. Check the Kaggle listing and challenge terms before using or redistributing the records.
+
+Download the files from Kaggle and arrange them like this, or pass the parent dataset folder with `--data-dir`:
 
 <details>
 <summary>Expected dataset layout</summary>
